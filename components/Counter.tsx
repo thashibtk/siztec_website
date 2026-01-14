@@ -9,10 +9,6 @@ interface CounterProps {
 
 export default function Counter({ end, duration = 1.5, className = "purecounter" }: CounterProps) {
     const rawId = React.useId();
-    // Sanitizing ID just in case, though attribute selector handles most chars.
-    // Replacing colons with dashes to be safe for ID attributes if needed, 
-    // but React useId is valid for ID attribute. 
-    // PureCounter selector needs attribute selector to safe-guard against special chars.
     const id = `counter-${rawId.replace(/:/g, '')}`; 
     const spanRef = useRef<HTMLSpanElement>(null);
 

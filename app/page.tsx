@@ -23,7 +23,7 @@ export default function Home() {
                     <a href="tel:+97143260688" className="cta-btn mr-30">
                       Contact Us <img src="/images/icons/cta.svg" alt="cta" />
                     </a>
-                    <a href="/about_us"><span>Learn more about us</span></a>
+                    <Link href="/about_us"><span>Learn more about us</span></Link>
                   </div>
                 </div>
               </ScrollAnimation>
@@ -31,7 +31,7 @@ export default function Home() {
             <div className="col-md-5 d-none d-md-block">
               <ScrollAnimation>
                 <div className="hero-img">
-                  <img className="img-fluid" src="/images/media/main.png" alt="Professional Workforce" />
+                  <img className="img-fluid" src="/images/media/main.webp" alt="Professional Workforce" />
                 </div>
               </ScrollAnimation>
             </div>
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="col-lg-6">
               <ScrollAnimation>
                 <div className="about-us-img d-flex justify-content-center d-none d-lg-block">
-                  <img alt="About Siztec" className="img-fluid" src="/images/media/about.png" />
+                  <img alt="About Siztec" className="img-fluid" src="/images/media/about.webp" />
                 </div>
               </ScrollAnimation>
             </div>
@@ -106,96 +106,100 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <div className="section-title mb-50">
-                <h2 className="title text-white">Industries We Serve</h2>
-                <p className="subtitle">
-                  Specialized manpower solutions across diverse sectors
-                </p>
-              </div>
+              <ScrollAnimation>
+                <div className="section-title mb-50">
+                  <h2 className="title text-white">Industries We Serve</h2>
+                  <p className="subtitle">
+                    Specialized manpower solutions across diverse sectors
+                  </p>
+                </div>
+              </ScrollAnimation>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-oil-well" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+          <ScrollAnimation>
+            <div className="row justify-content-center">
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-oil-well" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Oil & Gas</h4>
                 </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Oil & Gas</h4>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-flask" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Petrochemical</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-helmet-safety" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Construction</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-industry" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Manufacturing</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-ship" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Marine Services</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-road" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Infrastructure</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-bolt" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Power & Utilities</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-bell-concierge" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Hospitality</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-car" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Automotive</h4>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 five-col-grid mb-4">
+                <div className="work-content text-center">
+                  <div className="illustration d-flex justify-content-center align-items-center">
+                    <i className="fa-solid fa-building-columns" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
+                  </div>
+                  <h4 className="title" style={{fontSize: '16px'}}>Banking & Finance</h4>
+                </div>
               </div>
             </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-flask" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Petrochemical</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-helmet-safety" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Construction</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-industry" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Manufacturing</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-ship" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Marine Services</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-road" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Infrastructure</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-bolt" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Power & Utilities</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-bell-concierge" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Hospitality</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-car" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Automotive</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-4 five-col-grid mb-4">
-              <div className="work-content text-center">
-                <div className="illustration d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-building-columns" style={{ fontSize: '30px', color: 'var(--blue-deep)' }}></i>
-                </div>
-                <h4 className="title" style={{fontSize: '16px'}}>Banking & Finance</h4>
-              </div>
-            </div>
-          </div>
+          </ScrollAnimation>
         </div>
       </section>
       {/* Industries Section Ends */}
@@ -217,70 +221,82 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="col-xl-4 col-md-6 mb-4">
-              <div className="service-info h-100 d-block text-center">
-                <div className="value-icon">
-                  <i className="fa-solid fa-users-gear"></i>
+              <ScrollAnimation className="h-100">
+                <div className="service-info h-100 d-block text-center">
+                  <div className="value-icon">
+                    <i className="fa-solid fa-users-gear"></i>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Specialized Manpower Supply</h4>
+                    <p>Skilled and qualified workforce for technical, mechanical, electrical, and civil sectors.</p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="title">Specialized Manpower Supply</h4>
-                  <p>Skilled and qualified workforce for technical, mechanical, electrical, and civil sectors.</p>
-                </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-xl-4 col-md-6 mb-4">
-              <div className="service-info h-100 d-block text-center">
-                <div className="value-icon">
-                  <i className="fa-solid fa-handshake"></i>
+              <ScrollAnimation className="h-100">
+                <div className="service-info h-100 d-block text-center">
+                  <div className="value-icon">
+                    <i className="fa-solid fa-handshake"></i>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Technical Outsourcing</h4>
+                    <p>Complete technical team outsourcing solutions for projects of any scale and complexity.</p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="title">Technical Outsourcing</h4>
-                  <p>Complete technical team outsourcing solutions for projects of any scale and complexity.</p>
-                </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-xl-4 col-md-6 mb-4">
-              <div className="service-info h-100 d-block text-center">
-                <div className="value-icon">
-                  <i className="fa-solid fa-clipboard-user"></i>
+              <ScrollAnimation className="h-100">
+                <div className="service-info h-100 d-block text-center">
+                  <div className="value-icon">
+                    <i className="fa-solid fa-clipboard-user"></i>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Project Staffing</h4>
+                    <p>Dedicated project-based staffing with experienced professionals ready to deploy.</p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="title">Project Staffing</h4>
-                  <p>Dedicated project-based staffing with experienced professionals ready to deploy.</p>
-                </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-xl-4 col-md-6 mb-4">
-              <div className="service-info h-100 d-block text-center">
-                <div className="value-icon">
-                  <i className="fa-solid fa-screwdriver-wrench"></i>
+              <ScrollAnimation className="h-100">
+                <div className="service-info h-100 d-block text-center">
+                  <div className="value-icon">
+                    <i className="fa-solid fa-screwdriver-wrench"></i>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Shutdown & Special Projects</h4>
+                    <p>Specialized teams for plant shutdowns, turnarounds, and time-critical projects.</p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="title">Shutdown & Special Projects</h4>
-                  <p>Specialized teams for plant shutdowns, turnarounds, and time-critical projects.</p>
-                </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-xl-4 col-md-6 mb-4">
-              <div className="service-info h-100 d-block text-center">
-                <div className="value-icon">
-                  <i className="fa-solid fa-user-check"></i>
+              <ScrollAnimation className="h-100">
+                <div className="service-info h-100 d-block text-center">
+                  <div className="value-icon">
+                    <i className="fa-solid fa-user-check"></i>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Permanent Recruitment</h4>
+                    <p>End-to-end recruitment services to find the perfect permanent staff for your organization.</p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="title">Permanent Recruitment</h4>
-                  <p>End-to-end recruitment services to find the perfect permanent staff for your organization.</p>
-                </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-xl-4 col-md-6 mb-4">
-              <div className="service-info h-100 d-block text-center">
-                <div className="value-icon">
-                  <i className="fa-solid fa-list-check"></i>
+              <ScrollAnimation className="h-100">
+                <div className="service-info h-100 d-block text-center">
+                  <div className="value-icon">
+                    <i className="fa-solid fa-list-check"></i>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Workforce Management</h4>
+                    <p>Comprehensive HR solutions including payroll, compliance, and employee management.</p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="title">Workforce Management</h4>
-                  <p>Comprehensive HR solutions including payroll, compliance, and employee management.</p>
-                </div>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
@@ -301,40 +317,48 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6 mb-4">
-              <div className="choose-card text-center">
-                <div className="icon">
-                  <i className="fa-solid fa-ranking-star"></i>
+              <ScrollAnimation className="h-100">
+                <div className="choose-card text-center">
+                  <div className="icon">
+                    <i className="fa-solid fa-ranking-star"></i>
+                  </div>
+                  <h4>Quality Assurance</h4>
+                  <p>Pre-screened, qualified professionals meeting industry standards</p>
                 </div>
-                <h4>Quality Assurance</h4>
-                <p>Pre-screened, qualified professionals meeting industry standards</p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
-              <div className="choose-card text-center">
-                <div className="icon">
-                  <i className="fa-solid fa-clock-rotate-left"></i>
+              <ScrollAnimation className="h-100">
+                <div className="choose-card text-center">
+                  <div className="icon">
+                    <i className="fa-solid fa-clock-rotate-left"></i>
+                  </div>
+                  <h4>Timely Delivery</h4>
+                  <p>Quick mobilization and deployment of workforce when you need them</p>
                 </div>
-                <h4>Timely Delivery</h4>
-                <p>Quick mobilization and deployment of workforce when you need them</p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
-              <div className="choose-card text-center">
-                <div className="icon">
-                  <i className="fa-solid fa-briefcase"></i>
+              <ScrollAnimation className="h-100">
+                <div className="choose-card text-center">
+                  <div className="icon">
+                    <i className="fa-solid fa-briefcase"></i>
+                  </div>
+                  <h4>Industry Expertise</h4>
+                  <p>Deep understanding of UAE market and regulatory requirements</p>
                 </div>
-                <h4>Industry Expertise</h4>
-                <p>Deep understanding of UAE market and regulatory requirements</p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
-              <div className="choose-card text-center">
-                <div className="icon">
-                  <i className="fa-solid fa-headset"></i>
+              <ScrollAnimation className="h-100">
+                <div className="choose-card text-center">
+                  <div className="icon">
+                    <i className="fa-solid fa-headset"></i>
+                  </div>
+                  <h4>24/7 Support</h4>
+                  <p>Dedicated account management and round-the-clock assistance</p>
                 </div>
-                <h4>24/7 Support</h4>
-                <p>Dedicated account management and round-the-clock assistance</p>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
@@ -357,70 +381,76 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="testimonial-wrap h-100">
-                <div className="testimonial-content">
-                  <p className="testimonial-title">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                  </p>
-                  <p>
-                    Siztec provided us with highly skilled technicians for our oil & gas project. Their professionalism and quick response time were impressive.
-                  </p>
-                </div>
-                <div className="reviewer text-end mt-30">
-                  <div className="reviewer-info d-inline-block">
-                    <p className="name">Ahmed Al Mansoori</p>
-                    <p className="desig">Project Manager, Energy Sector</p>
+              <ScrollAnimation className="h-100">
+                <div className="testimonial-wrap h-100">
+                  <div className="testimonial-content">
+                    <p className="testimonial-title">
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                    </p>
+                    <p>
+                      Siztec provided us with highly skilled technicians for our oil & gas project. Their professionalism and quick response time were impressive.
+                    </p>
+                  </div>
+                  <div className="reviewer text-end mt-30">
+                    <div className="reviewer-info d-inline-block">
+                      <p className="name">Ahmed Al Mansoori</p>
+                      <p className="desig">Project Manager, Energy Sector</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="testimonial-wrap h-100">
-                <div className="testimonial-content">
-                  <p className="testimonial-title">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                  </p>
-                  <p>
-                    Outstanding service for our construction project. The team was qualified, punctual, and exceeded our expectations in every way.
-                  </p>
-                </div>
-                <div className="reviewer text-end mt-30">
-                  <div className="reviewer-info d-inline-block">
-                    <p className="name">Sarah Johnson</p>
-                    <p className="desig">Operations Director</p>
+              <ScrollAnimation className="h-100">
+                <div className="testimonial-wrap h-100">
+                  <div className="testimonial-content">
+                    <p className="testimonial-title">
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                    </p>
+                    <p>
+                      Outstanding service for our construction project. The team was qualified, punctual, and exceeded our expectations in every way.
+                    </p>
+                  </div>
+                  <div className="reviewer text-end mt-30">
+                    <div className="reviewer-info d-inline-block">
+                      <p className="name">Sarah Johnson</p>
+                      <p className="desig">Operations Director</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="testimonial-wrap h-100">
-                <div className="testimonial-content">
-                  <p className="testimonial-title">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                  </p>
-                  <p>
-                    Reliable partner for our manpower needs. Siztec consistently delivers quality workforce and excellent support throughout the project.
-                  </p>
-                </div>
-                <div className="reviewer text-end mt-30">
-                  <div className="reviewer-info d-inline-block">
-                    <p className="name">Mohammed Rahman</p>
-                    <p className="desig">HR Manager, Manufacturing</p>
+              <ScrollAnimation className="h-100">
+                <div className="testimonial-wrap h-100">
+                  <div className="testimonial-content">
+                    <p className="testimonial-title">
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                    </p>
+                    <p>
+                      Reliable partner for our manpower needs. Siztec consistently delivers quality manpower and excellent support throughout the project.
+                    </p>
+                  </div>
+                  <div className="reviewer text-end mt-30">
+                    <div className="reviewer-info d-inline-block">
+                      <p className="name">Mohammed Rahman</p>
+                      <p className="desig">HR Manager, Manufacturing</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
@@ -435,7 +465,7 @@ export default function Home() {
               <ScrollAnimation>
                 <h2 className="title text-white mb-4">Ready to Build Your Team?</h2>
                 <p className="subtitle mb-5">Contact us today to discuss your manpower requirements</p>
-                <a href="/contact_us" className="cta-btn">Get In Touch</a>
+                <Link href="/contact_us" className="cta-btn">Get In Touch</Link>
               </ScrollAnimation>
             </div>
           </div>

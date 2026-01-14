@@ -768,7 +768,7 @@ p {
 
 /*Hero Area*/
 .hero-banner {
-    background-image: url(../images/bg/hero-bg.png);
+    background-image: url(../images/bg/hero-bg.webp);
     background-color: #00163E;
     background-size: cover;
     background-repeat: no-repeat;
@@ -776,8 +776,13 @@ p {
 
 @media (max-width: 767px) {
     .hero-banner {
-        background-image: linear-gradient(rgba(0, 22, 62, 0.7), rgba(0, 22, 62, 0.7)), url(../images/bg/home-bg.png);
+        background-image: linear-gradient(rgba(0, 22, 62, 0.7), rgba(0, 22, 62, 0.7)), url(../images/bg/home-bg.webp);
         background-position: center;
+    }
+
+    .hero-content .sub-title {
+        color: #ffffff !important;
+        margin-right: 0;
     }
 }
 
@@ -824,7 +829,7 @@ p {
 /* ================== Work Area =================== */
 .work-area {
     position: relative;
-    background-image: url(../images/bg/cta-bg.png);
+    background-image: url(../images/bg/cta-bg.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1544,7 +1549,7 @@ form input:focus {
 /* ===================== Contact Page ====================== */
 
 .contact-title-area {
-    background-image: url(../images/bg/contact-bg1.jpg);
+    background-image: url(../images/bg/contact-bg1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -2132,7 +2137,7 @@ form input:focus {
 /* ================= About Us Page ================= */
 
 .about-title-area {
-    background-image: url(../images/bg/about-bg.png);
+    background-image: url(../images/bg/about-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;

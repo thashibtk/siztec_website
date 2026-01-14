@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function ScrollAnimation({ children, className = '' }: { children: React.ReactNode, className?: string }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,17 +10,19 @@ export default function ScrollAnimation({ children, className = '' }: { children
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          // Once visible, we can stop observing to keep it visible
           if (domRef.current) {
             observer.unobserve(domRef.current);
           }
         }
       });
     }, {
-      threshold: 0.1, // Trigger when 10% of the element is visible
+        // Use a 0 value to trigger as soon as any pixel is visible
+        threshold: 0,
+        rootMargin: '0px 0px -50px 0px' // Offset to trigger slightly before bottom
     });
 
     const currentElement = domRef.current;
+    
     if (currentElement) {
       observer.observe(currentElement);
     }
@@ -29,6 +31,7 @@ export default function ScrollAnimation({ children, className = '' }: { children
       if (currentElement) {
         observer.unobserve(currentElement);
       }
+      observer.disconnect();
     };
   }, []);
 
@@ -36,8 +39,11 @@ export default function ScrollAnimation({ children, className = '' }: { children
     <div
       ref={domRef}
       className={`animate-on-scroll ${isVisible ? 'is-visible' : ''} ${className}`}
+      style={{ minHeight: '1px' }} // Ensure element has height
     >
       {children}
     </div>
   );
 }
+
+

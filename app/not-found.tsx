@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function NotFound() {
   return (
-    <div className="error-page-area" style={{ backgroundImage: 'url("/images/bg/error_page_bg.png")' }}>
+    <div className="error-page-area" style={{ backgroundImage: 'url("/images/bg/error_page_bg.webp")' }}>
       <div className="container">
         <div className="row ">
           <div className="col-lg-6 offset-lg-3 col-md-8 offset-md-2">

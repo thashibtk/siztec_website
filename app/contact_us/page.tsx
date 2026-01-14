@@ -46,37 +46,43 @@ export default function ContactUs() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="text-center p-4 bg-white rounded h-100">
-                <div className="mb-3">
-                  <i className="fas fa-map-marker-alt" style={{fontSize: '32px', color: 'var(--blue-deep)'}}></i>
+              <ScrollAnimation className="h-100">
+                <div className="text-center p-4 bg-white rounded h-100">
+                  <div className="mb-3">
+                    <i className="fas fa-map-marker-alt" style={{fontSize: '32px', color: 'var(--blue-deep)'}}></i>
+                  </div>
+                  <h5>Our Office</h5>
+                  <p className="mb-0">309, Third floor, Coastal building <br/> Al Nahda Road, Al Qusais 2<br/>Dubai, UAE</p>
                 </div>
-                <h5>Our Office</h5>
-                <p className="mb-0">309, Third floor, Coastal building <br/> Al Nahda Road, Al Qusais 2<br/>Dubai, UAE</p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="text-center p-4 bg-white rounded h-100">
-                <div className="mb-3">
-                  <i className="fas fa-phone-alt" style={{fontSize: '32px', color: 'var(--blue-deep)'}}></i>
+              <ScrollAnimation className="h-100">
+                <div className="text-center p-4 bg-white rounded h-100">
+                  <div className="mb-3">
+                    <i className="fas fa-phone-alt" style={{fontSize: '32px', color: 'var(--blue-deep)'}}></i>
+                  </div>
+                  <h5>Call Us</h5>
+                  <p className="mb-0">
+                    <a href="tel:+97143260688" style={{textDecoration: 'none', color: 'inherit'}}>+971 4326 0688</a><br/>
+                    <a href="tel:+971521164362" style={{textDecoration: 'none', color: 'inherit'}}>+971 52 116 4362</a>
+                  </p>
                 </div>
-                <h5>Call Us</h5>
-                <p className="mb-0">
-                  <a href="tel:+97143260688" style={{textDecoration: 'none', color: 'inherit'}}>+971 4326 0688</a><br/>
-                  <a href="tel:+971521164362" style={{textDecoration: 'none', color: 'inherit'}}>+971 52 116 4362</a>
-                </p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="text-center p-4 bg-white rounded h-100">
-                <div className="mb-3">
-                  <i className="fas fa-envelope" style={{fontSize: '32px', color: 'var(--blue-deep)'}}></i>
+              <ScrollAnimation className="h-100">
+                <div className="text-center p-4 bg-white rounded h-100">
+                  <div className="mb-3">
+                    <i className="fas fa-envelope" style={{fontSize: '32px', color: 'var(--blue-deep)'}}></i>
+                  </div>
+                  <h5>Email Us</h5>
+                  <p className="mb-0">
+                    <a href="mailto:info@siztec.com" style={{textDecoration: 'none', color: 'inherit'}}>info@siztec.com</a><br/>
+                    <a href="mailto:sales@siztec.com" style={{textDecoration: 'none', color: 'inherit'}}>sales@siztec.com</a>
+                  </p>
                 </div>
-                <h5>Email Us</h5>
-                <p className="mb-0">
-                  <a href="mailto:info@siztec.com" style={{textDecoration: 'none', color: 'inherit'}}>info@siztec.com</a><br/>
-                  <a href="mailto:sales@siztec.com" style={{textDecoration: 'none', color: 'inherit'}}>sales@siztec.com</a>
-                </p>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
@@ -88,91 +94,93 @@ export default function ContactUs() {
         <div className="container">
           <div className="row">
             <div className="col-xl-8 offset-xl-2">
-              <div className="contact-form-title pb-50 text-center">
-                <h3 className="title">Request a Consultation</h3>
-                <p>Fill out the form below and our team will get back to you within 24 hours</p>
-              </div>
-              
-              {status && (
-                <div className={`alert ${status.success ? 'alert-success' : 'alert-danger'} text-center mb-4`}>
-                  {status.message}
+              <ScrollAnimation>
+                <div className="contact-form-title pb-50 text-center">
+                  <h3 className="title">Request a Consultation</h3>
+                  <p>Fill out the form below and our team will get back to you within 24 hours</p>
                 </div>
-              )}
-
-              <div className="comments-form">
-                <form onSubmit={handleSubmit}>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-input-wrap">
-                        <input type="text" name="firstName" placeholder="First Name *" required />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-input-wrap">
-                        <input type="text" name="lastName" placeholder="Last Name *" required />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-input-wrap">
-                        <input type="email" name="email" placeholder="Email Address *" required />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-input-wrap">
-                        <input type="tel" name="phone" placeholder="Phone Number *" required />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-input-wrap">
-                        <input type="text" name="company" placeholder="Company Name" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-input-wrap">
-                        <select name="industry" className="form-control" style={{height: '60px', border: '1px solid #e5e5e5', width: '100%', padding: '0 20px'}}>
-                          <option value="">Select Industry *</option>
-                          <option value="oil-gas">Oil & Gas</option>
-                          <option value="construction">Construction</option>
-                          <option value="petrochemical">Petrochemical</option>
-                          <option value="manufacturing">Manufacturing</option>
-                          <option value="marine">Marine Services</option>
-                          <option value="infrastructure">Infrastructure</option>
-                          <option value="hospitality">Hospitality</option>
-                          <option value="power">Power & Utilities</option>
-                          <option value="automotive">Automotive</option>
-                          <option value="other">Other</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-md-12 mt-2">
-                      <div className="form-input-wrap">
-                        <select name="service" className="form-control" style={{height: '60px', border: '1px solid #e5e5e5', width: '100%', padding: '0 20px'}} required>
-                          <option value="">Service Required *</option>
-                          <option value="manpower-supply">Specialized Manpower Supply</option>
-                          <option value="technical-outsourcing">Technical Outsourcing</option>
-                          <option value="project-staffing">Project Staffing</option>
-                          <option value="shutdown-work">Shutdown & Special Projects</option>
-                          <option value="permanent-recruitment">Permanent Recruitment</option>
-                          <option value="workforce-management">Workforce Management</option>
-                          <option value="other">Other</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-md-12 mt-4">
-                      <div className="form-textarea-wrap">
-                        <textarea name="message" placeholder="Tell us about your requirements..." rows={6} required></textarea>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="pt-20 text-center">
-                        <button className="cta-btn form-send-btn" disabled={loading}>
-                          {loading ? 'Sending...' : 'Submit Request'}
-                        </button>
-                      </div>
-                    </div>
+                
+                {status && (
+                  <div className={`alert ${status.success ? 'alert-success' : 'alert-danger'} text-center mb-4`}>
+                    {status.message}
                   </div>
-                </form>
-              </div>
+                )}
+
+                <div className="comments-form">
+                  <form onSubmit={handleSubmit}>
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div className="form-input-wrap">
+                          <input type="text" name="firstName" placeholder="First Name *" required />
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="form-input-wrap">
+                          <input type="text" name="lastName" placeholder="Last Name *" required />
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="form-input-wrap">
+                          <input type="email" name="email" placeholder="Email Address *" required />
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="form-input-wrap">
+                          <input type="tel" name="phone" placeholder="Phone Number *" required />
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="form-input-wrap">
+                          <input type="text" name="company" placeholder="Company Name" />
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="form-input-wrap">
+                          <select name="industry" className="form-control" style={{height: '60px', border: '1px solid #e5e5e5', width: '100%', padding: '0 20px'}}>
+                            <option value="">Select Industry *</option>
+                            <option value="oil-gas">Oil & Gas</option>
+                            <option value="construction">Construction</option>
+                            <option value="petrochemical">Petrochemical</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="marine">Marine Services</option>
+                            <option value="infrastructure">Infrastructure</option>
+                            <option value="hospitality">Hospitality</option>
+                            <option value="power">Power & Utilities</option>
+                            <option value="automotive">Automotive</option>
+                            <option value="other">Other</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div className="col-md-12 mt-2">
+                        <div className="form-input-wrap">
+                          <select name="service" className="form-control" style={{height: '60px', border: '1px solid #e5e5e5', width: '100%', padding: '0 20px'}} required>
+                            <option value="">Service Required *</option>
+                            <option value="manpower-supply">Specialized Manpower Supply</option>
+                            <option value="technical-outsourcing">Technical Outsourcing</option>
+                            <option value="project-staffing">Project Staffing</option>
+                            <option value="shutdown-work">Shutdown & Special Projects</option>
+                            <option value="permanent-recruitment">Permanent Recruitment</option>
+                            <option value="workforce-management">Workforce Management</option>
+                            <option value="other">Other</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div className="col-md-12 mt-4">
+                        <div className="form-textarea-wrap">
+                          <textarea name="message" placeholder="Tell us about your requirements..." rows={6} required></textarea>
+                        </div>
+                      </div>
+                      <div className="col-md-12">
+                        <div className="pt-20 text-center">
+                          <button className="cta-btn form-send-btn" disabled={loading}>
+                            {loading ? 'Sending...' : 'Submit Request'}
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
@@ -209,44 +217,48 @@ export default function ContactUs() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mb-4">
-              <div className="p-4 bg-white rounded h-100">
-                <h4 className="mb-4">Business Hours</h4>
-                <div className="d-flex justify-content-between mb-3">
-                  <span><strong>Monday - Saturday:</strong></span>
-                  <span>8:00 AM - 6:00 PM</span>
+              <ScrollAnimation className="h-100">
+                <div className="p-4 bg-white rounded h-100">
+                  <h4 className="mb-4">Business Hours</h4>
+                  <div className="d-flex justify-content-between mb-3">
+                    <span><strong>Monday - Saturday:</strong></span>
+                    <span>8:00 AM - 6:00 PM</span>
+                  </div>
+                  <div className="d-flex justify-content-between mb-3">
+                    <span><strong>Sunday:</strong></span>
+                    <span>Closed</span>
+                  </div>
+                  <p className="mt-4 mb-0" style={{color: '#666'}}>
+                    <i className="fas fa-info-circle me-2"></i>
+                    Emergency support available 24/7 for existing clients
+                  </p>
                 </div>
-                <div className="d-flex justify-content-between mb-3">
-                  <span><strong>Sunday:</strong></span>
-                  <span>Closed</span>
-                </div>
-                <p className="mt-4 mb-0" style={{color: '#666'}}>
-                  <i className="fas fa-info-circle me-2"></i>
-                  Emergency support available 24/7 for existing clients
-                </p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className="col-lg-6 mb-4">
-              <div className="p-4 bg-white rounded h-100">
-                <h4 className="mb-4">Quick Links</h4>
-                <div className="mb-3">
-                  <a href="/" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
-                    <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
-                    Home
-                  </a>
-                  <a href="/services" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
-                    <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
-                    Our Services
-                  </a>
-                  <a href="/about_us" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
-                    <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
-                    About Siztec
-                  </a>
-                  <a href="/#industries" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
-                    <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
-                    Industries We Serve
-                  </a>
+              <ScrollAnimation className="h-100">
+                <div className="p-4 bg-white rounded h-100">
+                  <h4 className="mb-4">Quick Links</h4>
+                  <div className="mb-3">
+                    <a href="/" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
+                      <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
+                      Home
+                    </a>
+                    <a href="/services" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
+                      <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
+                      Our Services
+                    </a>
+                    <a href="/about_us" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
+                      <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
+                      About Siztec
+                    </a>
+                    <a href="/#industries" style={{textDecoration: 'none', color: '#333', display: 'block', marginBottom: '12px'}}>
+                      <i className="fas fa-arrow-right me-2" style={{color: 'var(--blue-light)'}}></i>
+                      Industries We Serve
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
