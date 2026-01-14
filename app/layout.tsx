@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Siztec Technical Services LLC | Manpower Supply Company in UAE",
   description:
     "Siztec Technical Services LLC provides skilled and semi-skilled manpower supply, technical outsourcing, project staffing, and shutdown workforce solutions across key industries in the UAE.",
+  icons: {
+    icon: "/images/fav-icon/icon.png",
+  },
 };
 
 export default function RootLayout({
