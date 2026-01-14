@@ -51,6 +51,7 @@ export default function RootLayout({
         <Script src="/vendors/bootstrap/js/bootstrap.min.js" strategy="afterInteractive" />
         <Script src="/vendors/mediabox/js/mediabox.min.js" strategy="afterInteractive" />
         <Script src="/js/main.js" strategy="afterInteractive" />
+        <Analytics />
       </body>
     </html>
   );
