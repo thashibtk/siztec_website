@@ -18,9 +18,9 @@ export async function sendEmail(formData: FormData) {
 
   try {
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST || "mail.siztec.com",
-      port: Number(process.env.SMTP_PORT) || 465,
-      secure: true, // true for 465, false for other ports
+      host: process.env.SMTP_HOST || "us2.smtp.mailhostbox.com",
+      port: Number(process.env.SMTP_PORT) || 587,
+      secure: process.env.SMTP_SECURE === "true" || false, // false for 587 (STARTTLS)
       auth: {
         user: process.env.SMTP_USER || "sales@siztec.com",
         pass: process.env.SMTP_PASS || "password",
