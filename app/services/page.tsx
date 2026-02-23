@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Our Services - Siztec Technical Services",
-  description: "Comprehensive manpower and workforce solutions across UAE - Specialized staffing, technical outsourcing, project staffing, and more."
+  description: "Comprehensive workforce and workforce solutions across UAE - Specialized staffing, technical outsourcing, project staffing, and more."
 };
 
 export default function Services() {
@@ -16,7 +16,7 @@ export default function Services() {
             <div className="col-xl-12">
               <div className="page-title-wrap text-center">
                 <h1 className="title hero-title">Our Services</h1>
-                <p className="hero-title">Comprehensive manpower solutions tailored to meet your business needs across diverse industries in the UAE</p>
+                <p className="hero-title">Comprehensive workforce solutions tailored to meet your business needs across diverse industries in the UAE</p>
               </div>
             </div>
           </div>
@@ -24,16 +24,16 @@ export default function Services() {
       </div>
       {/* Breadcrumb Section Ends */}
 
-      {/* Service 1: Specialized Manpower Supply */}
-      <section className="pt-110 pb-110" id="manpower-supply">
+      {/* Service 1: Specialized Workforce Supply */}
+      <section className="pt-110 pb-110" id="workforce-supply">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
               <ScrollAnimation>
                 <div className="service-img">
                   <img 
-                    src="../images/services/manpower.webp " 
-                    alt="Specialized Manpower Supply" 
+                    src="../images/services/manpower.webp" 
+                    alt="Specialized Workforce Supply" 
                     className="img-fluid rounded shadow"
                     style={{width: '100%', height: 'auto'}}
                   />
@@ -44,18 +44,21 @@ export default function Services() {
               <ScrollAnimation>
                 <div className="service-content ps-lg-4">
                   <span className="badge bg-primary mb-3">Core Service</span>
-                  <h2 className="title mb-4">Specialized & Skilled Manpower Supply</h2>
+                  <h2 className="title mb-4">Specialized & Skilled Workforce Supply</h2>
                   <p className="mb-4">
-                    We provide highly qualified and skilled workforce across technical, mechanical, electrical, and civil sectors. Our extensive database ensures rapid deployment of professionals who meet your exact specifications.
+                    We deliver qualified technical workforce solutions across mechanical,
+                    electrical, civil, and industrial sectors. Our structured sourcing
+                    and screening process ensures fast deployment aligned with your
+                    exact project requirements.
                   </p>
                   
                   <h5 className="mb-3">Key Features:</h5>
                   <ul className="mb-4">
-                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Pre-screened and certified professionals</li>
+                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Pre-screened and verified professionals</li>
                     <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Technical and trade specialists</li>
-                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Engineers and supervisors</li>
-                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Skilled and semi-skilled labor</li>
-                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Fast mobilization (48-72 hours)</li>
+                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Engineers and site supervisors</li>
+                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Skilled and semi-skilled workforce</li>
+                    <li className="mb-2"><i className="fas fa-check-circle text-primary me-2"></i>Fast mobilization (48–72 hours)</li>
                   </ul>
 
                   <h5 className="mb-3">Industries Served:</h5>
@@ -67,7 +70,9 @@ export default function Services() {
                     <span className="badge bg-secondary">Infrastructure</span>
                   </div>
 
-                  <a href="/contact_us" className="service-btn btn-primary">Request Manpower</a>
+                  <a href="/contact_us" className="service-btn btn-primary">
+                    Request Workforce
+                  </a>
                 </div>
               </ScrollAnimation>
             </div>
@@ -466,7 +471,7 @@ export default function Services() {
             <div className="col-xl-12 text-center">
               <ScrollAnimation>
                 <h2 className="title text-white mb-4">Ready to Build Your Perfect Team?</h2>
-                <p className="subtitle mb-5">Contact us today to discuss your manpower requirements and discover how we can support your business goals</p>
+                <p className="subtitle mb-5">Contact us today to discuss your workforce requirements and discover how we can support your business goals</p>
                 <a href="/contact_us" className="cta-btn me-3">Get Started Now</a>
                 <a href="tel:+97143260688" className="cta-btn"><i className="fas fa-phone me-2"></i>Call Us</a>
               </ScrollAnimation>

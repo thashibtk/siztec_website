@@ -11,9 +11,9 @@ const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "500", "600", "
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"], variable: '--font-dm-sans' });
 
 export const metadata: Metadata = {
-  title: "Siztec Technical Services LLC | Manpower Supply Company in UAE",
+  title: "Siztec Technical Services LLC | Workforce Supply Company in UAE",
   description:
-    "Siztec Technical Services LLC provides skilled and semi-skilled manpower supply, technical outsourcing, project staffing, and shutdown workforce solutions across key industries in the UAE.",
+    "Siztec Technical Services LLC provides skilled and semi-skilled workforce supply, technical outsourcing, project staffing, and shutdown workforce solutions across key industries in the UAE.",
   icons: {
     icon: "/images/fav-icon/icon.png",
   },

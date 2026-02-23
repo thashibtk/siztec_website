@@ -59,7 +59,7 @@ const Navbar = () => {
                         </Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link href="/services#manpower-supply">Manpower Supply</Link>
+                            <Link href="/services#workforce-supply">Workforce Supply</Link>
                           </li>
                           <li>
                             <Link href="/services#technical-outsourcing">Technical Outsourcing</Link>
@@ -158,7 +158,7 @@ const Navbar = () => {
                           
                           <ul className="sub-menu" style={{ display: servicesOpen ? 'block' : 'none' }}>
                             <li>
-                              <Link href="/services#manpower-supply" onClick={closeMobileMenu}>Manpower Supply</Link>
+                              <Link href="/services#workforce-supply" onClick={closeMobileMenu}>workforce Supply</Link>
                             </li>
                             <li>
                               <Link href="/services#technical-outsourcing" onClick={closeMobileMenu}>Technical Outsourcing</Link>

@@ -33,7 +33,7 @@ export default function ContactUs() {
             <div className="col-xl-12">
               <div className="page-title-wrap text-center">
                 <h1 className="title hero-title">Get in Touch</h1>
-                <p className="hero-title">We're here to discuss your manpower requirements and provide customized workforce solutions</p>
+                <p className="hero-title">We're here to discuss your workforce requirements and provide customized workforce solutions</p>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ export default function ContactUs() {
                         <div className="form-input-wrap">
                           <select name="service" className="form-control" style={{height: '60px', border: '1px solid #e5e5e5', width: '100%', padding: '0 20px'}} required>
                             <option value="">Service Required *</option>
-                            <option value="manpower-supply">Specialized Manpower Supply</option>
+                            <option value="workforce-supply">Specialized workforce Supply</option>
                             <option value="technical-outsourcing">Technical Outsourcing</option>
                             <option value="project-staffing">Project Staffing</option>
                             <option value="shutdown-work">Shutdown & Special Projects</option>
@@ -280,7 +280,7 @@ export default function ContactUs() {
               <ScrollAnimation>
                 <FAQ items={[
                   {
-                    question: "How quickly can you provide manpower?",
+                    question: "How quickly can you provide workforce?",
                     answer: "We maintain a ready pool of pre-screened professionals and can typically mobilize workforce within 48-72 hours for urgent requirements."
                   },
                   {
@@ -293,7 +293,7 @@ export default function ContactUs() {
                   },
                   {
                     question: "What is your service coverage area?",
-                    answer: "We provide manpower services throughout the United Arab Emirates, including Dubai, Abu Dhabi, Sharjah, and all other Emirates."
+                    answer: "We provide workforce services throughout the United Arab Emirates, including Dubai, Abu Dhabi, Sharjah, and all other Emirates."
                   }
                 ]} />
               </ScrollAnimation>
@@ -310,7 +310,7 @@ export default function ContactUs() {
             <div className="col-xl-12 text-center">
               <ScrollAnimation>
                 <h2 className="title text-white mb-4">Need Immediate Assistance?</h2>
-                <p className="subtitle mb-5">Our team is ready to help you with your manpower requirements</p>
+                <p className="subtitle mb-5">Our team is ready to help you with your workforce requirements</p>
                 <a href="tel:+97143260688" className="cta-btn me-3">
                 <i className="fas fa-phone me-2"></i>Call Now
               </a>

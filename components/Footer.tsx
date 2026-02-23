@@ -19,7 +19,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p className="mt-15">
-                  Leading manpower solutions provider in UAE, delivering qualified workforce across Oil & Gas, Construction, Manufacturing, and Industrial sectors.
+                  Leading workforce solutions provider in UAE, delivering qualified workforce across Oil & Gas, Construction, Manufacturing, and Industrial sectors.
                 </p>
                 <div className="social-widgt mt-20">
                   <ul>
@@ -47,7 +47,7 @@ const Footer = () => {
               <div className="footer-widget widget-menu">
                 <h5>Our Services</h5>
                 <ul>
-                  <li><Link href="/services#manpower-supply">Manpower Supply</Link></li>
+                  <li><Link href="/services#workforce-supply">workforce Supply</Link></li>
                   <li><Link href="/services#technical-outsourcing">Technical Outsourcing</Link></li>
                   <li><Link href="/services#project-staffing">Project Staffing</Link></li>
                   <li><Link href="/services#shutdown-work">Shutdown Work</Link></li>

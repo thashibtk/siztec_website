@@ -47,7 +47,7 @@ export default function TermsConditions() {
                   <div className="mb-5">
                     <h3 className="mb-3">2. Definitions</h3>
                     <ul>
-                      <li><strong>"Services"</strong> refers to all manpower supply, recruitment, staffing, and related services provided by Siztec.</li>
+                      <li><strong>"Services"</strong> refers to all workforce supply, recruitment, staffing, and related services provided by Siztec.</li>
                       <li><strong>"Client"</strong> means any individual or organization that engages Siztec for services.</li>
                       <li><strong>"Candidate"</strong> means any individual seeking employment through our services.</li>
                       <li><strong>"Employee"</strong> means any person employed or contracted through our services.</li>
@@ -60,7 +60,7 @@ export default function TermsConditions() {
                     <h3 className="mb-3">3. Services Provided</h3>
                     <p>Siztec Technical Services LLC provides the following services:</p>
                     <ul>
-                      <li>Specialized and skilled manpower supply</li>
+                      <li>Specialized and skilled workforce supply</li>
                       <li>Technical outsourcing and contract staffing</li>
                       <li>Project-based staffing solutions</li>
                       <li>Shutdown work and special projects</li>
@@ -295,7 +295,7 @@ export default function TermsConditions() {
                   {/* Legal Compliance */}
                   <div className="p-4" style={{backgroundColor: '#e3f2fd', borderRadius: '8px', borderLeft: '4px solid #2196F3'}}>
                     <p className="mb-0">
-                      <strong>Legal Compliance:</strong> Siztec Technical Services LLC operates in full compliance with UAE Federal Labor Law, MOHRE regulations, and all applicable UAE legislation. We are a licensed manpower supply company authorized to operate in the United Arab Emirates.
+                      <strong>Legal Compliance:</strong> Siztec Technical Services LLC operates in full compliance with UAE Federal Labor Law, MOHRE regulations, and all applicable UAE legislation. We are a licensed workforce supply company authorized to operate in the United Arab Emirates.
                     </p>
                   </div>
                 </div>

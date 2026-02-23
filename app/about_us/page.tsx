@@ -7,7 +7,7 @@ import BrandCarousel from "@/components/BrandCarousel";
 
 export const metadata: Metadata = {
   title: "About Us - Siztec Technical Services",
-  description: "Learn about Siztec Technical Services LLC, a leading provider of specialized manpower and technical services in the UAE with over 15 years of excellence."
+  description: "Learn about Siztec Technical Services LLC, a leading provider of specialized workforce and technical services in the UAE with over 15 years of excellence."
 };
 
 export default function AboutUs() {
@@ -20,7 +20,7 @@ export default function AboutUs() {
             <div className="col-xl-12">
               <div className="page-title-wrap text-center">
                 <h1 className="title hero-title">About Us</h1>
-                <p className="hero-title">Learn about Siztec Technical Services LLC, a leading provider of specialized manpower.</p>
+                <p className="hero-title">Learn about Siztec Technical Services LLC, a leading provider of specialized workforce.</p>
               </div>
             </div>
           </div>
@@ -37,11 +37,11 @@ export default function AboutUs() {
                 <div className="feature-details pt-15">
                   <h2 className="title pb-40">Building UAE's Workforce Excellence Since 2002</h2>
                   <p className="pb-30">
-                    Siztec Technical Services LLC is a premier manpower solutions provider in the United Arab Emirates, specializing in delivering qualified and skilled workforce across diverse industries. With over two decades of experience, we have established ourselves as a trusted partner for businesses seeking reliable staffing solutions.
+                    Siztec Technical Services LLC is a premier workforce solutions provider in the United Arab Emirates, specializing in delivering qualified and skilled workforce across diverse industries. With over two decades of experience, we have established ourselves as a trusted partner for businesses seeking reliable staffing solutions.
                   </p>
                   <div className="quote-wrap pl-30 pt-15 pb-15">
                     <p className="quote-text pb-15">
-                      "Our commitment is simple: deliver the right talent, at the right time, with the right expertise. We don't just supply manpower; we build lasting partnerships that drive business success."
+                      "Our commitment is simple: deliver the right talent, at the right time, with the right expertise. We don't just supply workforce; we build lasting partnerships that drive business success."
                     </p>
                     <span className="quote-author">- Managing Director, Siztec Technical Services LLC</span>
                   </div>
@@ -95,7 +95,7 @@ export default function AboutUs() {
                 <div className="p-4 bg-white rounded h-100">
                   <h3 className="title pb-3"><i className="fas fa-bullseye me-2" style={{color: '#001e56'}}></i> Our Mission</h3>
                   <p>
-                    To provide exceptional manpower solutions that empower businesses to achieve their operational goals. We are dedicated to connecting skilled professionals with opportunities where they can excel, while maintaining the highest standards of service quality, compliance, and client satisfaction.
+                    To provide exceptional workforce solutions that empower businesses to achieve their operational goals. We are dedicated to connecting skilled professionals with opportunities where they can excel, while maintaining the highest standards of service quality, compliance, and client satisfaction.
                   </p>
                 </div>
               </ScrollAnimation>
@@ -105,7 +105,7 @@ export default function AboutUs() {
                 <div className="p-4 bg-white rounded h-100">
                   <h3 className="title pb-3"><i className="fas fa-eye me-2" style={{color: '#001e56'}}></i> Our Vision</h3>
                   <p>
-                    To be the most trusted and preferred manpower solutions provider in the UAE, recognized for our commitment to excellence, innovation in workforce management, and our ability to deliver sustainable value to clients across all industries.
+                    To be the most trusted and preferred workforce solutions provider in the UAE, recognized for our commitment to excellence, innovation in workforce management, and our ability to deliver sustainable value to clients across all industries.
                   </p>
                 </div>
               </ScrollAnimation>
@@ -286,7 +286,7 @@ export default function AboutUs() {
               <div className="section-title mb-50">
                 <h2 className="title text-white">Industries We Serve</h2>
                 <p className="subtitle">
-                  Specialized manpower solutions across diverse sectors
+                  Specialized workforce solutions across diverse sectors
                 </p>
               </div>
             </div>
@@ -511,7 +511,7 @@ export default function AboutUs() {
               <div className="col-lg-8">
                 <div className="text-center">
                   <p className="mb-4">
-                    Siztec Technical Services LLC is fully licensed by the UAE Ministry of Human Resources and Emiratisation (MOHRE) and maintains all necessary certifications to operate as a manpower supply company in the United Arab Emirates.
+                    Siztec Technical Services LLC is fully licensed by the UAE Ministry of Human Resources and Emiratisation (MOHRE) and maintains all necessary certifications to operate as a workforce supply company in the United Arab Emirates.
                   </p>
                   <p>
                     We adhere to all UAE labor laws, safety regulations, and international standards to ensure complete compliance and peace of mind for our clients and workforce.

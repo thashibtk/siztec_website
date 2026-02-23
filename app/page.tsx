@@ -15,9 +15,9 @@ export default function Home() {
             <div className="col-md-7 col-sm-12">
               <ScrollAnimation>
                 <div className="hero-content pt-110">
-                  <h1 className="title mb-20">Your Trusted Manpower Partner in UAE</h1>
+                  <h1 className="title mb-20">Your Trusted Workforce Solutions Partner in the UAE</h1>
                   <p className="sub-title">
-                    Siztec Technical Services LLC provides specialized workforce solutions across Oil & Gas, Construction, Manufacturing, and Industrial sectors throughout the United Arab Emirates.
+                    Siztec Technical Services LLC provides specialized workforce and technical staffing solutions across Oil & Gas, Construction, Manufacturing, and Industrial sectors throughout the United Arab Emirates..
                   </p>
                   <div className="talk-btn mt-60">
                     <a href="tel:+97143260688" className="cta-btn mr-30">
@@ -73,13 +73,13 @@ export default function Home() {
                 <div className="about-content mt-40">
                   <div className="content">
                     <h3 className="title">
-                      Professional Manpower Solutions for Every Industry
+                      Professional workfore Solutions for Every Industry
                     </h3>
                     <p className="pb-30 description">
                       Siztec Technical Services LLC specializes in providing qualified and skilled workforce across multiple sectors in the UAE. With our extensive network and industry expertise, we connect businesses with the right talent at the right time.
                     </p>
                     <p className="pb-50 description">
-                      We are committed to delivering quality manpower services, ensuring timely deployment, and maintaining the highest standards of professionalism in every project we undertake.
+                      We are committed to delivering quality workforce services, ensuring timely deployment, and maintaining the highest standards of professionalism in every project we undertake.
                     </p>
                   </div>
                   <div className="review d-flex pt-30">
@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="section-title mb-50">
                   <h2 className="title text-white">Industries We Serve</h2>
                   <p className="subtitle">
-                    Specialized manpower solutions across diverse sectors
+                    Specialized workforce solutions across diverse sectors
                   </p>
                 </div>
               </ScrollAnimation>
@@ -227,7 +227,7 @@ export default function Home() {
                     <i className="fa-solid fa-users-gear"></i>
                   </div>
                   <div className="content">
-                    <h4 className="title">Specialized Manpower Supply</h4>
+                    <h4 className="title">Specialized workforce Supply</h4>
                     <p>Skilled and qualified workforce for technical, mechanical, electrical, and civil sectors.</p>
                   </div>
                 </div>
@@ -440,7 +440,7 @@ export default function Home() {
                       <i className="fas fa-star"></i>
                     </p>
                     <p>
-                      Reliable partner for our manpower needs. Siztec consistently delivers quality manpower and excellent support throughout the project.
+                      Reliable partner for our workforce needs. Siztec consistently delivers quality workforce and excellent support throughout the project.
                     </p>
                   </div>
                   <div className="reviewer text-end mt-30">
@@ -464,7 +464,7 @@ export default function Home() {
             <div className="col-xl-12 text-center">
               <ScrollAnimation>
                 <h2 className="title text-white mb-4">Ready to Build Your Team?</h2>
-                <p className="subtitle mb-5">Contact us today to discuss your manpower requirements</p>
+                <p className="subtitle mb-5">Contact us today to discuss your workforce requirements</p>
                 <Link href="/contact_us" className="cta-btn">Get In Touch</Link>
               </ScrollAnimation>
             </div>

@@ -74,7 +74,7 @@ export default function PrivacyPolicy() {
                     <h3 className="mb-3">3. How We Use Your Information</h3>
                     <p>We use your personal information for the following purposes:</p>
                     <ul>
-                      <li>Providing manpower and recruitment services</li>
+                      <li>Providing workforce and recruitment services</li>
                       <li>Processing job applications and employment contracts</li>
                       <li>Managing client relationships and service delivery</li>
                       <li>Conducting background checks and verification processes</li>
